@@ -40,6 +40,8 @@ def signUp():
     else:
         return json.dumps({'html':'<span>Enter the required fields</span>'})
      
+if __name__ == '__main__':
+    app.run()        
  
     
 
